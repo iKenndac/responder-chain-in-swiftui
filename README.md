@@ -10,6 +10,8 @@ For more information on the responder chain, see Apple's documentation here: [Us
 
 The sample is a basic app for rating an image. It displays an image to you, and you can apply a star rating to that image via the menu or the keyboard shortcuts ⌘0-5. The structure of the app is put together in a basic storyboard with tabs for a UIKit view controller and a SwiftUI view, each of which handles the menu items.
 
+![Screenshot](Screenshot.jpg)
+
 There are four main areas of interest in the sample code:
 
 1. `AppDelegate.swift` contains UIKit code for building a simple menu. On macOS, it'll be placed up in the menu bar. On iOS/iPadOS, it'll be available in the form of keyboard shortcuts and the menu overlay.
