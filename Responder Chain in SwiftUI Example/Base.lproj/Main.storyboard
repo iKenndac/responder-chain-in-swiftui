@@ -1,24 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6b8-cT-Scq">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--SwiftUI View-->
+        <scene sceneID="3zC-fw-oQ2">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="V9o-8D-Jnh" customClass="SwiftUIViewController" customModule="Responder_Chain_in_SwiftUI_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2LW-WO-eLH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="c47-FZ-Emo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="SwiftUI View" image="swift" catalog="system" id="wXV-lq-iEv"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ANH-uH-2JR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="453" y="42"/>
+        </scene>
+        <!--UIKit View-->
+        <scene sceneID="10G-ku-4rH">
+            <objects>
+                <viewController title="UIKit View" id="IQL-bf-YsY" customClass="UIKitViewController" customModule="Responder_Chain_in_SwiftUI_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tqW-mi-E3b">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="eNg-Lo-6F2">
+                                <rect key="frame" x="20" y="79" width="353" height="670"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mountain" translatesAutoresizingMaskIntoConstraints="NO" id="5Ut-rU-svX">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="589.33333333333337"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Image Rating" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3J-Yt-xxa">
+                                        <rect key="frame" x="0.0" y="609.33333333333337" width="353" height="20.333333333333371"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Press ⌘0-5 to rate, or use the Rating menu." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ouu-UP-VPh">
+                                        <rect key="frame" x="0.0" y="649.66666666666663" width="353" height="20.333333333333371"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZVf-MU-XMd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZVf-MU-XMd" firstAttribute="bottom" secondItem="eNg-Lo-6F2" secondAttribute="bottom" constant="20" id="UjE-Xa-OYL"/>
+                            <constraint firstItem="eNg-Lo-6F2" firstAttribute="top" secondItem="ZVf-MU-XMd" secondAttribute="top" constant="20" id="W8B-Rf-jdU"/>
+                            <constraint firstItem="eNg-Lo-6F2" firstAttribute="leading" secondItem="ZVf-MU-XMd" secondAttribute="leading" constant="20" id="dDt-Ai-lLG"/>
+                            <constraint firstItem="ZVf-MU-XMd" firstAttribute="trailing" secondItem="eNg-Lo-6F2" secondAttribute="trailing" constant="20" id="lvk-hf-WyY"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="UIKit View" image="timer" catalog="system" id="pcu-ET-SvC"/>
+                    <connections>
+                        <outlet property="ratingLabel" destination="j3J-Yt-xxa" id="XZ5-0I-lL9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yIV-Ex-zy3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="453" y="-565"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="41h-M2-fb6">
+            <objects>
+                <tabBarController id="6b8-cT-Scq" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OrL-2d-Lqw">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="IQL-bf-YsY" kind="relationship" relationship="viewControllers" id="FNs-LZ-01d"/>
+                        <segue destination="V9o-8D-Jnh" kind="relationship" relationship="viewControllers" id="1gI-uO-wsZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D5W-VM-aux" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-451" y="-262"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Mountain" width="2000" height="1500"/>
+        <image name="swift" catalog="system" width="128" height="108"/>
+        <image name="timer" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

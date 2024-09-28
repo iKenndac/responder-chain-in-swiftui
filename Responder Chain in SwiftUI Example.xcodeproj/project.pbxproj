@@ -9,21 +9,36 @@
 /* Begin PBXBuildFile section */
 		5007A2182CA5A83C0097E034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5007A2172CA5A83C0097E034 /* AppDelegate.swift */; };
 		5007A21A2CA5A83C0097E034 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5007A2192CA5A83C0097E034 /* SceneDelegate.swift */; };
-		5007A21C2CA5A83C0097E034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5007A21B2CA5A83C0097E034 /* ViewController.swift */; };
+		5007A21C2CA5A83C0097E034 /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5007A21B2CA5A83C0097E034 /* UIKitViewController.swift */; };
 		5007A21F2CA5A83C0097E034 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5007A21E2CA5A83C0097E034 /* Base */; };
 		5007A2212CA5A83D0097E034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5007A2202CA5A83D0097E034 /* Assets.xcassets */; };
 		5007A2242CA5A83D0097E034 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5007A2232CA5A83D0097E034 /* Base */; };
+		5007A2312CA5B4580097E034 /* ResponderChainInteropHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5007A22D2CA5B4580097E034 /* ResponderChainInteropHostingController.swift */; };
+		5007A2322CA5B4580097E034 /* SwiftUIResponderChainInterop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5007A22E2CA5B4580097E034 /* SwiftUIResponderChainInterop.swift */; };
+		5007A2332CA5B4580097E034 /* CBLMenuActionForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5007A22F2CA5B4580097E034 /* CBLMenuActionForwarder.m */; };
+		5007A2352CA5B5060097E034 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5007A2342CA5B5060097E034 /* SwiftUIView.swift */; };
+		5007A2382CA5B5EC0097E034 /* SwiftUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5007A2372CA5B5EC0097E034 /* SwiftUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5007A2142CA5A83C0097E034 /* Responder Chain in SwiftUI Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Responder Chain in SwiftUI Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5007A2172CA5A83C0097E034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5007A2192CA5A83C0097E034 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5007A21B2CA5A83C0097E034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5007A21B2CA5A83C0097E034 /* UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
 		5007A21E2CA5A83C0097E034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5007A2202CA5A83D0097E034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5007A2232CA5A83D0097E034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5007A2252CA5A83D0097E034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5007A22B2CA5A8560097E034 /* Responder Chain in SwiftUI Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Responder Chain in SwiftUI Example.entitlements"; sourceTree = "<group>"; };
+		5007A22C2CA5B4580097E034 /* Bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
+		5007A22D2CA5B4580097E034 /* ResponderChainInteropHostingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponderChainInteropHostingController.swift; sourceTree = "<group>"; };
+		5007A22E2CA5B4580097E034 /* SwiftUIResponderChainInterop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIResponderChainInterop.swift; sourceTree = "<group>"; };
+		5007A22F2CA5B4580097E034 /* CBLMenuActionForwarder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLMenuActionForwarder.m; sourceTree = "<group>"; };
+		5007A2302CA5B4580097E034 /* CBLMenuActionForwarder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLMenuActionForwarder.h; sourceTree = "<group>"; };
+		5007A2342CA5B5060097E034 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		5007A2372CA5B5EC0097E034 /* SwiftUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewController.swift; sourceTree = "<group>"; };
+		5007A2612CA6EA840097E034 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5007A2622CA8318B0097E034 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +55,8 @@
 		5007A20B2CA5A83C0097E034 = {
 			isa = PBXGroup;
 			children = (
+				5007A2612CA6EA840097E034 /* README.md */,
+				5007A2622CA8318B0097E034 /* LICENSE.md */,
 				5007A2162CA5A83C0097E034 /* Responder Chain in SwiftUI Example */,
 				5007A2152CA5A83C0097E034 /* Products */,
 			);
@@ -58,13 +75,29 @@
 			children = (
 				5007A2172CA5A83C0097E034 /* AppDelegate.swift */,
 				5007A2192CA5A83C0097E034 /* SceneDelegate.swift */,
-				5007A21B2CA5A83C0097E034 /* ViewController.swift */,
+				5007A21B2CA5A83C0097E034 /* UIKitViewController.swift */,
+				5007A2342CA5B5060097E034 /* SwiftUIView.swift */,
+				5007A2372CA5B5EC0097E034 /* SwiftUIViewController.swift */,
+				5007A2362CA5B5C60097E034 /* SwiftUI <-> Responder Chain Interop */,
 				5007A21D2CA5A83C0097E034 /* Main.storyboard */,
 				5007A2202CA5A83D0097E034 /* Assets.xcassets */,
 				5007A2222CA5A83D0097E034 /* LaunchScreen.storyboard */,
+				5007A22B2CA5A8560097E034 /* Responder Chain in SwiftUI Example.entitlements */,
 				5007A2252CA5A83D0097E034 /* Info.plist */,
+				5007A22C2CA5B4580097E034 /* Bridging.h */,
 			);
 			path = "Responder Chain in SwiftUI Example";
+			sourceTree = "<group>";
+		};
+		5007A2362CA5B5C60097E034 /* SwiftUI <-> Responder Chain Interop */ = {
+			isa = PBXGroup;
+			children = (
+				5007A2302CA5B4580097E034 /* CBLMenuActionForwarder.h */,
+				5007A22F2CA5B4580097E034 /* CBLMenuActionForwarder.m */,
+				5007A22E2CA5B4580097E034 /* SwiftUIResponderChainInterop.swift */,
+				5007A22D2CA5B4580097E034 /* ResponderChainInteropHostingController.swift */,
+			);
+			path = "SwiftUI <-> Responder Chain Interop";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +132,7 @@
 				TargetAttributes = {
 					5007A2132CA5A83C0097E034 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 				};
 			};
@@ -138,9 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5007A21C2CA5A83C0097E034 /* ViewController.swift in Sources */,
+				5007A2382CA5B5EC0097E034 /* SwiftUIViewController.swift in Sources */,
+				5007A2322CA5B4580097E034 /* SwiftUIResponderChainInterop.swift in Sources */,
+				5007A2352CA5B5060097E034 /* SwiftUIView.swift in Sources */,
+				5007A21C2CA5A83C0097E034 /* UIKitViewController.swift in Sources */,
 				5007A2182CA5A83C0097E034 /* AppDelegate.swift in Sources */,
 				5007A21A2CA5A83C0097E034 /* SceneDelegate.swift in Sources */,
+				5007A2312CA5B4580097E034 /* ResponderChainInteropHostingController.swift in Sources */,
+				5007A2332CA5B4580097E034 /* CBLMenuActionForwarder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +329,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Responder Chain in SwiftUI Example/Responder Chain in SwiftUI Example.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = EB5BP6YJ4R;
@@ -300,6 +341,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +349,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "se.cascable.Responder-Chain-in-SwiftUI-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Responder Chain in SwiftUI Example/Bridging.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,6 +365,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Responder Chain in SwiftUI Example/Responder Chain in SwiftUI Example.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = EB5BP6YJ4R;
@@ -328,6 +377,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,7 +385,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "se.cascable.Responder-Chain-in-SwiftUI-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Responder Chain in SwiftUI Example/Bridging.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
